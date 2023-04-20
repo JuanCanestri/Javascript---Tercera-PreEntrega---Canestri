@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tercera PreEntrega Juan Canestri</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>Bienvenido a Spotify</h1>
+    <div class="main">
+        <div id="filtro">
+            <h2>Filtrar</h2>
+            <select id="opciones">
+                <option value="rock internacional">Rock Internacional</option>
+                <option value="electronica">Electronica</option>
+            </select>
+            <ul id="playlistFiltrada">
+            </ul>
+        </div>
+        <div id="playlist">
+            <h2>Playlist</h2>
+            <ul id="listaPlaylist"></ul>
+        </div>
+        <form id="formCancion">
+            <h2>Agregar Cancion</h2>
+            <input type="text" placeholder="Autor" id="autor" required>
+            <br><br>
+            <input type="text" placeholder="Titulo" id="titulo" required>
+            <br><br>
+            <input type="text" placeholder="Album" id="album" required>
+            <br><br>
+            <input type="text" placeholder="Genero" id="genero" required>
+            <br><br>
+            <button type="submit">Enviar Cancion</button>
+            <button type="reset">Reset</button>
+        </form>
+    </div>
+    
+
+    <script src="./main.js"></script>
+</body>
+</html>

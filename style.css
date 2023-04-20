@@ -1,0 +1,9 @@
+*{
+    background-color: darkgray;
+    text-align: center;
+    list-style: none;
+}
+.main{
+    display: flex;
+    justify-content: space-evenly;
+}
